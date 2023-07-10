@@ -192,3 +192,29 @@ main section {
 .cv-download {
   margin-bottom: 30px;
 }
+
+/* Footer related styles  */
+
+.footer-item-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.left-item {
+  max-width: 562px;
+}
+footer input {
+  display: block;
+}
+
+footer input[type="text"],
+footer input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #fff8f3;
+}
