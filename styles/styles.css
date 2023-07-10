@@ -1,7 +1,19 @@
+/* Common shared style */
 body {
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
+}
+
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+main section {
+  margin-top: 130px;
 }
 
 /* Nav related styles */
@@ -96,4 +108,87 @@ header {
   color: #fd6e0a;
   font-weight: bold;
   border-radius: 5px;
+}
+
+/* About section started */
+main section {
+  margin-top: 130px;
+  max-width: 1140px;
+  margin: auto;
+}
+.about-descriptin {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 30px;
+}
+.about-title-container {
+  max-width: 909px;
+  margin: auto;
+}
+.title {
+  border-bottom: 0;
+}
+.about-skill-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.skill-box {
+  max-width: 200px;
+  max-height: 377px;
+  /* gap: 35px; */
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding: 30px;
+  margin-top: 50px;
+}
+
+.about-desc {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.about-desc-container {
+  max-width: 827px;
+  margin: auto;
+}
+.about-section {
+  border-radius: 10px;
+  background: #fff8f3;
+  margin-top: 130px;
+  padding-bottom: 130px;
+}
+.about-desc-container {
+  padding-top: 100px;
+}
+.detail-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 827px;
+  margin: auto;
+  line-height: 10px;
+}
+
+/* Resume related styles */
+.resume-container {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+.experiance-container,
+.eductation-container {
+  max-width: 511px;
+}
+.resume-section {
+  margin: auto;
+  text-align: center;
+}
+.cv-download {
+  margin-bottom: 30px;
 }
